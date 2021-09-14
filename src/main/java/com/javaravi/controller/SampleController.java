@@ -13,5 +13,10 @@ public class SampleController {
 	public String welcome() {
 		return "Welcome To Spring Boot :";
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello To Spring Boot :";
+	}
 
 }
