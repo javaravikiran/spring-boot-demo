@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/springdemo")
-public class SampleController {
-	
-	
+public class SampleController {	
 	
 	@GetMapping("/welcome")
 	public String welcome() {
